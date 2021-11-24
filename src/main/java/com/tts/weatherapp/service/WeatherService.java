@@ -12,6 +12,11 @@ public class WeatherService {
     @Value("${api_key}")
     private String apiKey;
 
+    // @Autowired
+    // private ZipRepository zippo;
+
+    // zippo.save(new Request(request.getZipCode()));
+
     public Response getForecast(String zipCode) {
         String url = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + "&units=imperial&appid="
                 + apiKey;
@@ -24,4 +29,7 @@ public class WeatherService {
             return response;
         }
     }
+
+    // public Request getTopTen(String zipCode) {
+    // }
 }

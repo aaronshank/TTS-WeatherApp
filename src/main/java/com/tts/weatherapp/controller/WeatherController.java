@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 
 import com.tts.weatherapp.domain.Request;
 import com.tts.weatherapp.domain.Response;
-
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,7 +18,7 @@ public class WeatherController {
 
     @GetMapping("/")
     public String getIndex(Model model) {
-        model.addAttribute("data", new Request());
+        model.addAttribute("request", new Request());
         return "index";
     }
 

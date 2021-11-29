@@ -18,4 +18,9 @@ public class Request {
         this.zipCode = zipCode;
     }
 
+    @Override
+    public String toString() {
+        return "Request [zipCode=" + zipCode + "]";
+    }
+
 }

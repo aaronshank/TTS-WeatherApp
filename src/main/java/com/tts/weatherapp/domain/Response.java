@@ -123,4 +123,11 @@ public class Response {
         this.cod = cod;
     }
 
+    @Override
+    public String toString() {
+        return "Response [base=" + base + ", clouds=" + clouds + ", cod=" + cod + ", coord=" + coord + ", dt=" + dt
+                + ", id=" + id + ", main=" + main + ", name=" + name + ", sys=" + sys + ", weather=" + weather
+                + ", wind=" + wind + "]";
+    }
+
 }

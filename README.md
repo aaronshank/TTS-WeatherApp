@@ -1,12 +1,5 @@
 # TTS-WeatherApp
 
-In Class project.
-
-Activity is fully working now. Feel free to compare code to see where your errors are.
-
-Application.properties is .gitignore'd but it only has the api_key in it.
-
-# Homework :
 Modify the app so that it displays a list of the 10 most recent searches. Here is a summary of the changes you'll need to make: (*Note*: **Bolded** is completed)
 * **Add the necessary database settings to application.properties.**
 * **Create a model/entity to store zip codes in the database.**
@@ -19,3 +12,9 @@ Modify the app so that it displays a list of the 10 most recent searches. Here i
 * In the html page, add code to display the recent searches in a table.
 
 Use the weather description in the API response to dynamically change the background on the page. You will have to get images from unsplash.com for each possible weather scenario.
+
+
+# My Notes
+Activity is fully working now. Feel free to compare code to see where your errors are.
+
+Application.properties is .gitignore'd but it only has the api_key in it.
